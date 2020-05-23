@@ -53,6 +53,7 @@ body{
     color: white;
     text-align: center;
     font-size: 12px;
+    margin-top: 50px
 }
 
 #header{
@@ -63,9 +64,9 @@ body{
     transition: 0.3s;
     height: 150px;
     top: 0;
-    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -webkit-box-shadow: 0px 3px 10px 6px rgba(57, 63, 72, 0.3); 
+    -moz-box-shadow:    0px 3px 10px 6px rgba(57, 63, 72, 0.3);  
+    box-shadow:         0px 3px 10px 6px rgba(57, 63, 72, 0.3); 
 }
 
 #webtitle{
@@ -146,11 +147,13 @@ a {
     width: 60%;
     margin: 0 auto;
     padding: 50px;
+    height: 400px
 }
 
 .centerbox img{
     float: left;
-    width: 35%;
+    max-width: 35%;
+    max-height: 100%
 }
 
 .mid{
@@ -174,7 +177,6 @@ a {
 
 .half{
     width: 50%;
-    margin-top: 40px;
     float: left;
     padding: 50px;
     padding-left: 80px;
@@ -264,7 +266,7 @@ a {
     width: 60%;
     float: left;
     background-size: cover;
-    height: 170px;
+    height: 180px;
     object-fit: cover;
 }
 
@@ -313,12 +315,22 @@ a {
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1360px){
+    body{
+        margin-top: 100px;
+    }
     .tab{
         font-size: 20px;
+        margin-top: -40px;
     }
     #webtitle{
         font-size: 20px;
-        margin-top: 10px;
+        /* margin-top: 10px; */
+    }
+    #header{
+        height: 110px;
+    }
+    #navbar{
+        height: 45px
     }
 }
 
@@ -372,6 +384,8 @@ a {
         float: left;
         width: 50%;
         margin-left: 25%;
+        max-width: 50%;
+        max-height: none;
     }
 
     .mid{
@@ -391,6 +405,7 @@ a {
     .half{
         padding: 0;
         width: 100%;
+        margin-top: 40px;
     }
 
     #page-content{
