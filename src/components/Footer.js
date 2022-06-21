@@ -24,7 +24,12 @@ const Footer = () => (
           )
         }
       >
-        Resume <FontAwesomeIcon icon={faFileArrowDown} className={style.icon} />
+        Resume{" "}
+        <FontAwesomeIcon
+          icon={faFileArrowDown}
+          className={style.icon}
+          size="s"
+        />
       </button>
       <div
         className={style.longText}
