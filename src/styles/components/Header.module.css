@@ -1,0 +1,108 @@
+.header {
+  background-color: white;
+  margin-bottom: 20px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0px 0px 2px 1px #29292940;
+  z-index: 9999;
+}
+
+.mobileIcon {
+  display: none;
+}
+
+.title {
+  font-size: 50px;
+  transition: 500ms;
+}
+
+.mainMenu {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.socialMenu {
+  width: 120px;
+  float: right;
+  margin-top: 10px;
+  transition: 500ms;
+}
+
+.fileIcon {
+  margin-left: 5px;
+}
+
+.anchorLink, .anchorLink:visited {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  background-image: none;
+}
+
+.anchorLink:hover {
+  color: black;
+}
+
+/* small */
+
+.headerSmall {
+  height: 50px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0px 0px 9px 3px #29292940;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  transition: 500ms;
+  z-index: 9999;
+}
+
+.headerSmall > .title {
+  margin-top: 5px;
+  font-size: 30px;
+  transition: 500ms;
+}
+
+.socialMenuVertical {
+  margin-top: 30px;
+  float: right;
+  transition: 500ms;
+}
+
+@media only screen and (max-width: 720px) {
+  .title {
+    font-size: 25px;
+    transition: 0ms;
+  }
+
+  .mobileIcon {
+    display: block;
+  }
+
+  .headerSmall > .title {
+    font-size: 25px;
+    margin-top: 10px;
+    transition: 0ms;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .header {
+    height: 50px;
+    padding: 10px 20px;
+  }
+
+  .headerSmall {
+    margin-bottom: 20px;
+  }
+}

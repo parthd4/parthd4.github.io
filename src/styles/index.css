@@ -1,0 +1,99 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+#pageContent {
+  padding: 0 max(5%, 70px);
+}
+
+#top {
+  position: absolute;
+  top: 0;
+}
+
+button {
+  background-color: #7DB8E4;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+button:hover {
+  background-color: #a5a5a5;
+}
+
+/* Line on either side of header */
+/* https://www.trysmudford.com/blog/css-header-legend/ */
+.sectionTitle {
+  font-size: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sectionTitle:before,
+.sectionTitle:after {
+  content: '';
+  border-top: 2px solid #a5a5a5;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+.sectionTitle:after {
+  margin: 0 0 0 20px;
+}
+
+
+/* Links */
+/* https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css/ */
+
+a {
+  text-decoration: none;
+  background-image: linear-gradient(#7DB8E4, #7DB8E4);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1.5px;
+  transition: background-size .3s ease;
+}
+
+a:hover, a:focus {
+  background-size: 100% 1.5px;
+}
+
+a, a:visited {
+  font-weight: bold;
+  color: #7DB8E4;
+}
+
+@media only screen and (max-width: 720px) {
+  #pageContent {
+    padding: 0 max(5%, 20px);
+  }
+
+  body {
+    font-size: 16px;
+  }
+}

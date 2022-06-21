@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  width: 32px;
+  height: 120px;
+  justify-content: space-around;
+}
+
+.icon {
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #a5a5a5;
+  color: white;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background-color: #7DB8E4;
+}
+
+.link {
+  all: unset;
+}
+
+.link:focus {
+  outline: auto;
+}

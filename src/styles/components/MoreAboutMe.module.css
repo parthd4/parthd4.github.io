@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.half {
+  width: 45%;
+}
+
+.school {
+  margin-bottom: 20px;
+}
+
+.school > p {
+  margin: 2px;
+}
+
+.schoolName {
+  font-weight: bold;
+}
+
+.skillLabel {
+  margin-bottom: 5px;
+}
+
+.skillContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  font-size: 14px;
+  border: 1px solid #a5a5a5;
+  border-radius: 5px;
+  padding: 4px 8px;
+  margin-right: 3px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 720px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .half {
+    width: 100%;
+  }
+
+  .skill {
+    font-size: 12px;
+    border: 1px solid #a5a5a5;
+    border-radius: 5px;
+    padding: 4px 8px;
+    margin-right: 3px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}

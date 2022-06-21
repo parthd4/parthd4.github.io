@@ -1,0 +1,52 @@
+.footer {
+  background-color: #292929;
+  color: white;
+  margin-top: 50px;
+}
+
+.container {
+  padding: 10px max(5%, 70px);
+  text-align: center;
+}
+
+.iconContainer {
+  width: 150px;
+  margin: auto;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.longText {
+  margin: 25px 0;
+}
+
+.shortText {
+  display: none;
+}
+
+.button {
+  margin: 20px 0;
+}
+
+.icon {
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 720px) {
+  .name {
+    font-size: 30px;
+  }
+
+  .longText {
+    display: none;
+  }
+
+  .shortText {
+    display: block;
+  }
+}
