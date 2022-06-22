@@ -24,12 +24,7 @@ const Footer = () => (
           )
         }
       >
-        Resume{" "}
-        <FontAwesomeIcon
-          icon={faFileArrowDown}
-          className={style.icon}
-          size="s"
-        />
+        Resume <FontAwesomeIcon icon={faFileArrowDown} className={style.icon} />
       </button>
       <div
         className={style.longText}
@@ -43,6 +38,7 @@ const Footer = () => (
             dangerouslySetInnerHTML={{
               __html: e.text,
             }}
+            key={e.text}
           />
         ))}
       </div>

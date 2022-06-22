@@ -49,7 +49,6 @@ const Header = () => {
             <FontAwesomeIcon
               icon={faFileArrowDown}
               className={style.fileIcon}
-              size="s"
             />
           </button>
         </div>

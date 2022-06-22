@@ -94,6 +94,9 @@ const parse = (data) =>
         match.replace(/”|“/g, '"').replace(/‘|’/g, "'")
       );
 
+      // Remove  U+00a0
+      parsedText = parsedText.replace(/\u00A0/g, " ");
+
       const parsed = archieml.load(parsedText);
       res(parsed);
     });

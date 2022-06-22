@@ -14,7 +14,7 @@ const SocialIcons = ({ vertical }) => (
       aria-label="Email"
       title="Email"
     >
-      <FontAwesomeIcon className={style.icon} icon={faEnvelope} size="s" />
+      <FontAwesomeIcon className={style.icon} icon={faEnvelope} />
     </a>
     <a
       className={style.link}
@@ -22,7 +22,7 @@ const SocialIcons = ({ vertical }) => (
       aria-label="LinkedIn"
       title="LinkedIn"
     >
-      <FontAwesomeIcon className={style.icon} icon={faLinkedinIn} size="s" />
+      <FontAwesomeIcon className={style.icon} icon={faLinkedinIn} />
     </a>
     <a
       className={style.link}
@@ -30,7 +30,7 @@ const SocialIcons = ({ vertical }) => (
       aria-label="Twitter"
       title="Twitter"
     >
-      <FontAwesomeIcon className={style.icon} icon={faTwitter} size="s" />
+      <FontAwesomeIcon className={style.icon} icon={faTwitter} />
     </a>
   </div>
 );

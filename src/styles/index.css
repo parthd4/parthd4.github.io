@@ -2,6 +2,7 @@ body {
   font-family: 'Lato', sans-serif;
   margin: 0;
   font-size: 18px;
+  height: 100vh;
 }
 
 h3 {
@@ -39,9 +40,26 @@ button {
   font-size: inherit;
 }
 
-button:hover {
+button:hover, button:focus {
   background-color: #a5a5a5;
 }
+
+/* Remove focus when not using keyboard */
+@supports selector(:focus-visible) {
+  *:focus {
+    /* Remove the focus indicator on mouse-focus for browsers
+       that do support :focus-visible */
+    outline: none;
+  }
+}
+
+*:focus-visible {
+  /* Draw a focus style for
+     keyboard-focus on browsers that do support
+     :focus-visible */
+  outline: 2px solid #0060DF;
+}
+
 
 /* Line on either side of header */
 /* https://www.trysmudford.com/blog/css-header-legend/ */

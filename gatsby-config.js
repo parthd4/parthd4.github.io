@@ -6,17 +6,30 @@ module.exports = {
     siteUrl: `https://pdhyani.com`,
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -80,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-41EFRV3TS6", // Google Analytics / GA
+        ],
+      },
+    },
     "gatsby-plugin-image",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
         icon: "src/images/icon.png",
       },
     },
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
+    "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -25,11 +38,6 @@ module.exports = {
       },
       __key: "images",
     },
-    {
-      resolve: "gatsby-plugin-anchor-links",
-      options: {
-        offset: -80,
-      },
-    },
+    "gatsby-transformer-sharp",
   ],
 };

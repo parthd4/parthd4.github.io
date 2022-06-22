@@ -17,6 +17,7 @@
 .title {
   font-size: 50px;
   transition: 500ms;
+  font-weight: normal;
 }
 
 .mainMenu {

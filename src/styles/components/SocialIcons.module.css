@@ -5,28 +5,34 @@
 
 .vertical {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   width: 32px;
-  height: 120px;
+  height: 130px;
   justify-content: space-around;
 }
 
 .icon {
-  padding: 8px;
-  border-radius: 50%;
-  background-color: #a5a5a5;
+  padding: 10px;
   color: white;
-  cursor: pointer;
-}
-
-.icon:hover {
-  background-color: #7DB8E4;
 }
 
 .link {
   all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px; 
+  background-color: #a5a5a5;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.link:hover {
+  background-color: #7DB8E4;
 }
 
 .link:focus {
-  outline: auto;
+  outline: 2px solid #0060DF;
+  background-color: #7DB8E4;
 }
