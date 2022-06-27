@@ -119,4 +119,8 @@ a, a:visited {
     font-size: 16px;
     background-color: #292929;
   }
+
+  button {
+    font-size: 14px;
+  }
 }
