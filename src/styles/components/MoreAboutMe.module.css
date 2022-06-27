@@ -31,7 +31,7 @@
 
 .skill {
   font-size: 14px;
-  border: 1px solid #a5a5a5;
+  border: 1px solid #989494;
   border-radius: 5px;
   padding: 4px 8px;
   margin-right: 3px;
@@ -50,11 +50,5 @@
 
   .skill {
     font-size: 12px;
-    border: 1px solid #a5a5a5;
-    border-radius: 5px;
-    padding: 4px 8px;
-    margin-right: 3px;
-    text-align: center;
-    margin-bottom: 5px;
   }
 }

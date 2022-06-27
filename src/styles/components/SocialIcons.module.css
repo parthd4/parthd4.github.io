@@ -23,16 +23,16 @@
   align-items: center;
   width: 35px;
   height: 35px; 
-  background-color: #a5a5a5;
+  background-color: #989494;
   border-radius: 50%;
   cursor: pointer;
 }
 
 .link:hover {
-  background-color: #7DB8E4;
+  background-color: #6499CF;
 }
 
 .link:focus {
   outline: 2px solid #0060DF;
-  background-color: #7DB8E4;
+  background-color: #6499CF;
 }

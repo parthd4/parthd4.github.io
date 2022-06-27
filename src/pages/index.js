@@ -20,7 +20,7 @@ import Footer from "../components/Footer";
 import MetaData from "../components/MetaData";
 
 const IndexPage = () => (
-  <>
+  <div id="background-white">
     <MetaData />
     <Header />
     <div id="top" />
@@ -30,7 +30,7 @@ const IndexPage = () => (
       <Experience />
     </div>
     <Footer />
-  </>
+  </div>
 );
 
 export default IndexPage;

@@ -1,10 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFileArrowDown,
-  // faBars,
-  // faXmark,
-} from "@fortawesome/free-solid-svg-icons";
+import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import * as style from "../styles/components/Header.module.css";
@@ -12,7 +8,6 @@ import SocialIcons from "./SocialIcons";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
-  // const [showMobileMenu, setShowMobileMenu] = useState(false);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -62,12 +57,20 @@ const Header = () => {
           </div>
         )}
       </div>
-      {/* <div className={style.mobileIcon}>
-        <FontAwesomeIcon
-          icon={showMobileMenu ? faXmark : faBars}
-          onClick={() => setShowMobileMenu(!showMobileMenu)}
-        />
-      </div> */}
+      <div className={style.mobile}>
+        <button
+          type="button"
+          role="link"
+          onClick={() =>
+            window.open(
+              "https://drive.google.com/file/d/1nN_v9yXYZxp9DAs9cES42YrXVYqtaqEX/view?usp=sharing"
+            )
+          }
+        >
+          Resume{" "}
+          <FontAwesomeIcon icon={faFileArrowDown} className={style.fileIcon} />
+        </button>
+      </div>
     </div>
   );
 };

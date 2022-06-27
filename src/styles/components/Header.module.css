@@ -10,7 +10,7 @@
   z-index: 9999;
 }
 
-.mobileIcon {
+.mobile {
   display: none;
 }
 
@@ -22,10 +22,10 @@
 
 .mainMenu {
   display: flex;
-  width: 350px;
+  width: 375px;
   justify-content: space-between;
   align-items: center;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .socialMenu {
@@ -84,18 +84,18 @@
     transition: 0ms;
   }
 
-  .mobileIcon {
+  .mobile {
     display: block;
+  }
+
+  .desktop {
+    display: none;
   }
 
   .headerSmall > .title {
     font-size: 25px;
     margin-top: 10px;
     transition: 0ms;
-  }
-
-  .desktop {
-    display: none;
   }
 
   .header {
