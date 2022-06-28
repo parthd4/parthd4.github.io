@@ -18,11 +18,7 @@ const Footer = () => (
         type="button"
         role="link"
         className={style.button}
-        onClick={() =>
-          window.open(
-            "https://drive.google.com/file/d/1nN_v9yXYZxp9DAs9cES42YrXVYqtaqEX/view?usp=sharing"
-          )
-        }
+        onClick={() => window.open("/Parth_Dhyani_Resume.pdf")}
       >
         Resume <FontAwesomeIcon icon={faFileArrowDown} className={style.icon} />
       </button>

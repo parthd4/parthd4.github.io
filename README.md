@@ -21,6 +21,4 @@ In order to fetch data from the google doc, add this [private `auth.json`](https
 ## Deploying
 To deploy, run `npm run deploy` which will fetch the latest content from the google doc, build the site for production, and deploy the site by pushing to [`gh-pages`](https://github.com/parthd4/parthd4.github.io/tree/gh-pages).
 
-Ensure that a CNAME is present.
-
 After the site builds on [GitHub pages](https://github.com/parthd4/parthd4.github.io/deployments/activity_log?environment=github-pages), you should be able to access the site at https://pdhyani.com
