@@ -2,10 +2,11 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 
 .half {
-  width: 45%;
+  width: 48%;
 }
 
 .school {
@@ -42,6 +43,7 @@
 @media only screen and (max-width: 720px) {
   .container {
     flex-direction: column;
+    margin-bottom: 0;
   }
 
   .half {

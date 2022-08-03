@@ -112,7 +112,7 @@ a, a:visited {
 
 @media only screen and (max-width: 720px) {
   #pageContent {
-    padding: 0 max(5%, 20px);
+    padding: 0 max(5%, 20px) 30px max(5%, 20px);
   }
 
   body {
