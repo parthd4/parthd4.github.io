@@ -22,7 +22,6 @@
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
-    "archieml": "^0.5.0",
     "gatsby": "^4.15.2",
     "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-google-gtag": "^4.17.0",
@@ -33,19 +32,20 @@
     "gatsby-plugin-sitemap": "^5.15.1",
     "gatsby-source-filesystem": "^4.15.0",
     "gatsby-transformer-sharp": "^4.15.1",
-    "googleapis": "^100.0.0",
-    "htmlparser2": "^8.0.1",
-    "prop-types": "^15.8.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
+    "archieml": "^0.5.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "googleapis": "^100.0.0",
+    "htmlparser2": "^8.0.1",
+    "prop-types": "^15.8.1"
   }
 }

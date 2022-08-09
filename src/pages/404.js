@@ -1,11 +1,12 @@
 import * as React from "react";
 import { Link } from "gatsby";
 
+import "../styles/index.css";
+
 // styles
 const pageStyles = {
   color: "#232129",
   padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
 };
 const headingStyles = {
   marginTop: 0,
@@ -34,7 +35,7 @@ const NotFoundPage = () => (
       <span role="img" aria-label="Pensive emoji">
         😔
       </span>{" "}
-      we could not find what you were looking for.
+      this page does not exist.
       <br />
       {process.env.NODE_ENV === "development" ? (
         <>
@@ -44,7 +45,7 @@ const NotFoundPage = () => (
         </>
       ) : null}
       <br />
-      <Link to="/">Go home</Link>.
+      <Link to="/">Go to pdhyani.com</Link>
     </p>
   </main>
 );
