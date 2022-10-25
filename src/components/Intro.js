@@ -10,8 +10,6 @@ const Intro = () => (
       src="../images/headshot.jpg"
       alt="A headshot of Parth Dhyani"
       placeholder="blurred"
-      width={300}
-      height={300}
       className={style.headshot}
       loading="eager"
     />
