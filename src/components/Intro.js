@@ -7,12 +7,13 @@ import data from "../data/data.json";
 const Intro = () => (
   <div className={style.container}>
     <StaticImage
-      src="../images/headshot.webp"
+      src="../images/headshotp.jpg"
       alt="A headshot of Parth Dhyani"
       placeholder="blurred"
       width={300}
       height={300}
       className={style.headshot}
+      loading="eager"
     />
     <div className={style.introText}>
       <h2 className={style.title}>{data.intro.title}</h2>
