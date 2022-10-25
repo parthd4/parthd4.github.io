@@ -7,7 +7,7 @@ import data from "../data/data.json";
 const Intro = () => (
   <div className={style.container}>
     <StaticImage
-      src="../images/headshotp.jpg"
+      src="../images/headshot.jpg"
       alt="A headshot of Parth Dhyani"
       placeholder="blurred"
       width={300}
