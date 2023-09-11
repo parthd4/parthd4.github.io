@@ -11,6 +11,7 @@ const SocialIcons = ({ vertical }) => (
     <a
       className={style.link}
       href="mailto:parthdhyani20@gmail.com"
+      target="_blank"
       aria-label="Email"
       title="Email"
     >
@@ -19,6 +20,8 @@ const SocialIcons = ({ vertical }) => (
     <a
       className={style.link}
       href="https://www.linkedin.com/in/parth-dhyani/"
+      target="_blank"
+      rel="noreferrer"
       aria-label="LinkedIn"
       title="LinkedIn"
     >
@@ -27,6 +30,8 @@ const SocialIcons = ({ vertical }) => (
     <a
       className={style.link}
       href="https://twitter.com/parthd4"
+      target="_blank"
+      rel="noreferrer"
       aria-label="Twitter"
       title="Twitter"
     >

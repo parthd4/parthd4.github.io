@@ -66,7 +66,7 @@ const parse = (data) =>
             href = url.parse(aTag.attribs.href, true).query.q;
           }
 
-          let str = `<a href="${href}">`;
+          let str = `<a href="${href}" target="_blank" rel="noreferrer">`;
           str += tagHandlers._base(aTag);
           str += "</a>";
           return str;
