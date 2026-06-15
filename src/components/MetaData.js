@@ -12,7 +12,7 @@ const MetaData = () => (
     <link rel="canonical" href="https://pdhyani.com" />
     <meta
       name="description"
-      content="My name is Parth Dhyani and I am currently a software engineer at HubSpot. Previously, I led The Michigan Daily's software development team."
+      content="My name is Parth Dhyani and I am currently a tech lead and software engineer at HubSpot. Previously, I led The Michigan Daily's software development team."
     />
   </Helmet>
 );

@@ -1,7 +1,7 @@
 import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
 import SocialIcons from "./SocialIcons";
 
 import * as style from "../styles/components/Footer.module.css";
@@ -20,7 +20,7 @@ const Footer = () => (
         className={style.button}
         onClick={() => window.open("/Parth_Dhyani_Resume.pdf")}
       >
-        Resume <FontAwesomeIcon icon={faFileArrowDown} className={style.icon} />
+        Resume <FontAwesomeIcon icon={faFileAlt} className={style.icon} />
       </button>
       <div
         className={style.longText}

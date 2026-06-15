@@ -1,5 +1,6 @@
 .header {
   background-color: white;
+  position: sticky;
   margin-bottom: 20px;
   height: 100px;
   display: flex;

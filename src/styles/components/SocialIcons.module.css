@@ -29,10 +29,10 @@
 }
 
 .link:hover {
-  background-color: #6499CF;
+  background-color: #797676;
 }
 
 .link:focus {
   outline: 2px solid #0060DF;
-  background-color: #6499CF;
+  background-color: #797676;
 }

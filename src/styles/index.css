@@ -2,6 +2,7 @@ body {
   font-family: 'Lato', sans-serif;
   margin: 0;
   font-size: 18px;
+  background-color: #292929;
 }
 
 h3 {
@@ -16,9 +17,12 @@ h3 {
   font-style: italic;
 }
 
+#main {
+  background-color: white;
+}
+
 #pageContent {
   padding: 0 max(5%, 70px) 50px max(5%, 70px);
-  background-color: white;
 }
 
 #top {
@@ -41,7 +45,7 @@ button {
 }
 
 button:hover, button:focus {
-  background-color: #989494;
+  background-color: #507aa5;
 }
 
 /* Remove focus when not using keyboard */

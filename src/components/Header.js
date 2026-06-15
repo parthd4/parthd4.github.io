@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
 
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import * as style from "../styles/components/Header.module.css";
@@ -38,7 +38,7 @@ const Header = () => {
           >
             Resume{" "}
             <FontAwesomeIcon
-              icon={faFileArrowDown}
+              icon={faFileAlt}
               className={style.fileIcon}
             />
           </button>
@@ -60,7 +60,7 @@ const Header = () => {
           onClick={() => window.open("/Parth_Dhyani_Resume.pdf")}
         >
           Resume{" "}
-          <FontAwesomeIcon icon={faFileArrowDown} className={style.fileIcon} />
+          <FontAwesomeIcon icon={faFileAlt} className={style.fileIcon} />
         </button>
       </div>
     </div>

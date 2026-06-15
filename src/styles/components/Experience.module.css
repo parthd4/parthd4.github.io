@@ -9,19 +9,21 @@
   justify-content: space-between;
 }
 
+.name {
+  font-weight: bold;
+}
+
 .companyHeader > p {
   margin-top: 0;
 }
 
 .location {
   font-size: 18px;
-  font-style: italic;
   font-weight: bold;
   text-align: right;
 }
 
 .smallDate {
-  font-style: italic;
   text-align: right;
 }
 
@@ -110,8 +112,19 @@
 
 
 @media only screen and (max-width: 720px) {
+    .companyHeader {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .name{
+    margin-bottom: 4px;
+  }
+
   .location {
     font-size: 16px;
+    font-weight: normal;
   }
 
   .smallDate {

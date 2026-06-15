@@ -22,12 +22,14 @@ import MetaData from "../components/MetaData";
 const IndexPage = () => (
   <>
     <MetaData />
-    <Header />
-    <div id="top" />
-    <div id="pageContent">
-      <Intro />
-      <MoreAboutMe />
-      <Experience />
+    <div id="main">
+      <Header />
+      <div id="top" />
+      <div id="pageContent">
+        <Intro />
+        <MoreAboutMe />
+        <Experience />
+      </div>
     </div>
     <Footer />
   </>
