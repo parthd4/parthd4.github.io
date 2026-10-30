@@ -6,6 +6,7 @@ import "../styles/index.css";
 // styles
 const pageStyles = {
   color: "#232129",
+  backgroundColor: "#fff",
   padding: "96px",
 };
 const headingStyles = {
